@@ -1,6 +1,6 @@
 # Contrastive Learning with Non-Semantic Negatives
 
-This repository is the official implementation of [Robust Contrastive Learning Using Negative Samples with Diminished Semantics](https://arxiv.org/). Contrastive learning utilizes positive pairs which preserve semantic information while perturbing superficial features in the training images. Similarly, we propose to generate negative samples to make the model more robust, where only the superfluous instead of the semantic features are preserved. 
+This repository is the official implementation of [Robust Contrastive Learning Using Negative Samples with Diminished Semantics](https://arxiv.org/abs/2110.14189). Contrastive learning utilizes positive pairs which preserve semantic information while perturbing superficial features in the training images. Similarly, we propose to generate negative samples to make the model more robust, where only the superfluous instead of the semantic features are preserved. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22885450/137439195-4ebf806f-23bb-43d3-9134-09a8a939a6a0.png" width="800">
