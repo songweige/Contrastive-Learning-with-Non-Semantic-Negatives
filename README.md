@@ -55,7 +55,7 @@ python main_lincls.py -a resnet50 --lr 10.0 --batch-size 128 --epochs 60 \
 
 You can download pretrained models here:
 
-|         | k | α | IN-100   | [Corruption](https://github.com/hendrycks/robustness) | [Sketch](https://github.com/HaohanWang/ImageNet-Sketch) | [Stylized](https://github.com/rgeirhos/Stylized-ImageNet) | [Rendition](https://github.com/hendrycks/imagenet-r)       | Checkpoints |
+|         | k | α | ImageNet100   | [Corruption](https://github.com/hendrycks/robustness) | [Sketch](https://github.com/HaohanWang/ImageNet-Sketch) | [Stylized](https://github.com/rgeirhos/Stylized-ImageNet) | [Rendition](https://github.com/hendrycks/imagenet-r)       | Checkpoints |
 |---------|--------|-------|----------------|------------------|------------------|-------------------|---------------|---------------| 
 | MoCo | 16384  | -     | 77.88±0.28     | 43.08±0.27     | 28.24±0.58     | 16.20±0.55      | 32.92±0.12     | [R1](https://drive.google.com/file/d/1eCWCC0HDXxh1Zjzuq6r_Fcfp15UfJJrt/view?usp=sharing), [R2](https://drive.google.com/file/d/1l4nSn4WiogtxJdpAHphttOsa1iqfs_my/view?usp=sharing), [R3](https://drive.google.com/file/d/1Z1YAiK2DupHUFzFPfbfhU8_h1A-I2fkg/view?usp=sharing) |
 | +Texture| 16384  | 2     | 77.76±0.17     | 43.58±0.33     | 29.11±0.39     | 16.59±0.17      | 33.36±0.15     | [R1](https://drive.google.com/file/d/1vvWDLS8wN3Et1PTgzfsxtDa4JXqyYEA3/view?usp=sharing), [R2](https://drive.google.com/file/d/1MTo_vt2mUxYteoyoWtQiT5SRcH04Lj3F/view?usp=sharing), [R3](https://drive.google.com/file/d/13xjEyoOdMjZS68wYYGE2lcW7r__GFVsu/view?usp=sharing) |
